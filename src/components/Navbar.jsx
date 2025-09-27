@@ -1,4 +1,4 @@
-import React from 'react';
+import React from "react";
 
 const Navbar = ({ onMenuClick, onLogout }) => {
   return (
@@ -10,13 +10,26 @@ const Navbar = ({ onMenuClick, onLogout }) => {
               onClick={onMenuClick}
               className="p-2 rounded-md text-gray-400 hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-blue-500 lg:hidden"
             >
-              <svg className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 6h16M4 12h16M4 18h16" />
+              <svg
+                className="h-6 w-6"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke="currentColor"
+              >
+                <path
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  strokeWidth={2}
+                  d="M4 6h16M4 12h16M4 18h16"
+                />
               </svg>
             </button>
-            <h1 className="ml-4 text-xl font-semibold text-gray-900">Student Management System</h1>
+            <h1 className="ml-0 sm:ml-4 text-left font-semibold text-gray-900 text-lg sm:text-xl md:text-2xl lg:text-3xl leading-snug">
+              <span className="block sm:inline">Student</span>{" "}
+              <span className="block sm:inline">Management System</span>
+            </h1>
           </div>
-          
+
           <div className="flex items-center space-x-4">
             <div className="flex items-center space-x-2">
               <div className="w-8 h-8 bg-blue-500 rounded-full flex items-center justify-center">

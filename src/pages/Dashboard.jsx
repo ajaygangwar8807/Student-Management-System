@@ -15,7 +15,7 @@ const Dashboard = () => {
     <div>
       <div className="mb-8">
         <h1 className="text-3xl font-bold text-gray-900">Dashboard</h1>
-        <p className="mt-2 text-gray-600">Welcome to the Student Management System</p>
+        <p className="mt-2 text-gray-600">Welcome to the 3</p>
       </div>
 
       {/* Stats Grid */}
@@ -67,7 +67,7 @@ const Dashboard = () => {
           </div>
           <Link to="/students" className="block mt-4 text-center text-blue-600 hover:text-blue-800 text-sm font-medium">
             View All Students →
-          </Link>
+          </Link> npm start
         </div>
 
         <div className="bg-white rounded-lg shadow-md p-6">
